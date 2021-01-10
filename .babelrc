@@ -1,0 +1,13 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env", // 也可以简写为 “@babel/env”
+        {
+          "targets": {
+            "chrome": "68",
+            "ie": "11"
+          }
+        }
+      ]
+    ]
+  }
